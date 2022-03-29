@@ -75,3 +75,54 @@ body.fotos #cabecalho a#fotos {
 	cursor: text;
 	color: white;
 }
+
+/*Conteudo*/
+
+#conteudo{
+	margin-top: 60px;
+	background: orange;
+}
+
+#primario{
+	background: grey;
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+	width: 555px;
+}
+
+#uma-coluna #primario {
+	width: 750px;
+	margin: 0 0 20px 0;
+}
+
+#secundario{
+	background: grey;
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+#lateral{
+	background: grey;
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+
+}
+
+
+#container-rodape{
+	background: #294c71;
+	padding: 20px;
+	clear: both;
+}
+
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: white;
+}
