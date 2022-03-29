@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: white url(../imagens/fundo.png) repeat-x;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#principal{
+	width: 750px;
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+}
+
+#cabecalho{
+	/*border: 1px solid blue;*/
+	height: 150px;
+	padding-top: 25px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#logo{
+	background: url("../imagens/logo.png") no-repeat center;
+	text-indent: -9000px;
+	width: 152px;
+	height: 66px;
+}
+
+#cabecalho ul{
+	margin-top: 30px;
+	background: #990000;
+	float: left;
+
+}
+
+#cabecalho ul li{
+	float: left;
+}
+
+
+#cabecalho ul li a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+	background: url("../imagens/divisor.png") left center no-repeat;
+
+}
+
+#cabecalho ul a:hover {
+	color: #330000;
+}
+
+#cabecalho ul .primeiro a {
+	background: none;
+}
+
+body.home #cabecalho a#home,
+body.brasil #cabecalho a#brasil,
+body.internacional #cabecalho a#internacional,
+body.economia #cabecalho a#economia,
+body.saude #cabecalho a#saude,
+body.ciencia #cabecalho a#ciencia,
+body.fotos #cabecalho a#fotos {
+	background: #b30000;
+	cursor: text;
+	color: white;
+}
