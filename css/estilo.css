@@ -20,6 +20,23 @@ h2{
 	padding: 5px;
 }
 
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3 {
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #de003e;
+
+}
+
 label{
 	display: block;
 	cursor: pointer;
@@ -37,6 +54,11 @@ input.submit{
 	color: #fff;
 	background-color: #b10333;
 	border: 2px solid #870529;
+}
+
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
 }
 
 #principal{
@@ -177,3 +199,4 @@ body.fotos #cabecalho a#fotos {
 	padding-left: 20px;
 	color: #a1a1a1;
 }
+
